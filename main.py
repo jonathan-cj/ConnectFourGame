@@ -33,7 +33,7 @@ if __name__ == "__main__":
     )
     parser.add_argument("-b1", "--bot1", required=False, help="filename for bot 1 for pvb or bvb player 1")
     parser.add_argument("-b2", "--bot2", required=False, help="filename for bot 2 for bvb player 2")
-    parser.add_argument("-v", "--verbose", required=False, help="verbalize game runtime (BvB only), default true")
+    parser.add_argument("-v", "--verbose", action="store_true", required=False, help="verbalize game runtime (BvB only)")
 
     args = parser.parse_args()
 
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         raise Exception("Please Input bvb, pvb, or pvp for --type")
 
     thinking_time = float(args.thinking_time)
-    verbose = args.verbose if args.verbose != None else True
+    verbose = args.verbose
     config = Config(row, col, type, player_choice, is_dump, thinking_time, verbose)
     game = Game(config)
     game.gameplay()

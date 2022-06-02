@@ -24,9 +24,10 @@ class Game:
         __placement -> Placement phase for player or bot
     """
     def __init__(self, config: Config):
-        print(config)
         self.config = config
         self.verbose = (self.config.game_type == GameConstant.BVB and self.config.verbose) or self.config.game_type != GameConstant.BVB
+        if self.verbose:
+            print(config)
 
         board = Board(config.row, config.col)
         players = [
