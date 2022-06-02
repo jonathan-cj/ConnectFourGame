@@ -1,4 +1,4 @@
-# Simplexity Board Game
+# Connect Four Game
 
 ## 📖 How to Run
 
@@ -34,9 +34,8 @@ run.bat
 
 ## How to Play with Others
 
-1. You need to copy class from others to `minimax.py` or `local_search.py` (for example `MinimaxA` and `MinimaxB` to `minimax.py`)
-2. Both of them need to have different class name (for example class MinimaxA and class MinimaxB)
-3. Run using `--is_dump` with bot name define in `--bot1` or `--bot2`
+1. You need to copy class from others to `bot.py`
+2. Run using `--is_dump` with bot name define in `--bot1` or `--bot2`
 
 ## ⚙️ Config
 
@@ -51,4 +50,5 @@ You can change the config in run.bat
  --is_dump
  --bot1 <str>
  --bot2 <str>
+ --verbose
 ```
