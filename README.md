@@ -1,5 +1,5 @@
 # Connect Four Bot Competition
-made by Jonathan Christhoper Jahja
+made by Jonathan Christhoper Jahja\
 Version 1.0
 
 ## Latar Belakang
@@ -19,7 +19,7 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 * Pemenang dari kompetisi akan ditentukan dari peserta yang berhasil mengumpulkan poin terbanyak di akhir kompetisi (**berbeda dengan poin seleksi**)
 * Peserta dapat mengumpulkan poin dengan menjadi **King** dari memenangkan **daily tournament** yang akan diadakan setiap harinya pada siang hari (sekitar 12.00 - 15.00 WIB)
 * Berikut adalah contoh bentuk bracket dari **Daily tournament**,
-![](images%5Cbracket.png)
+![](https://github.com/jonathan-cj/ConnectFourGame/blob/main/images/bracket.png)
 > pada contoh dapat dilihat `Bot D` adalah pemenang dari **Daily tournament** tersebut, sehingga dia berhasil menjadi **King** dan mendapatkan poin.
 * Prioritas urutan bracket dimulai dari bot yang masih menjadi **King**, dan diikuti oleh bot peserta yang mengumpulkan tercepat. 
 > jadi pada contoh diatas `Bot A` merupakan **King** sebelumnya sehingga dia langsung ditempatkan di urutan pertama atau final. Lalu karena urutan pengumpulan Bot adalah `Bot B` > `Bot C` > `Bot D`, maka `Bot B` akan ditempatkan di urutan kedua, `Bot C` akan ditempatkan di urutan ketiga, dan seterusnya.
@@ -46,3 +46,6 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 4. Memberikan tag `vn` pada commit terakhir Anda setiap kali ingin melakukan submisi bot dengan n adalah urutan submisi keberapa. (contoh: `v1` untuk submisi pertama)
 5. Setiap peserta maksimal hanya dapat melakukan submisi bot sebanyak 5x, jadi pastikan bot yang dikumpulkan tidak ada error atau bug.
 6. Jika ada pertanyaan silahkan buat issues di [repository original](https://github.com/jonathan-cj/ConnectFourGame)
+
+## Credit
+Thanks to tugas besar AI buat inspirasinya
