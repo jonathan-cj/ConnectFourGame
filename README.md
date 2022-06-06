@@ -9,6 +9,9 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 * Pada task ini kalian akan membuat sebuah Bot Connect Four memanfaatkan algoritma Greedy
 * Algoritma Greedy diimplementasikan pada folder `algorithm/`
 * Pastikan algoritma yang diimplementasikan didalam sebuah class bernama `Bot<NIM kalian>` (contoh: `Bot13519144`) dan nama file `bot<NIM kalian>.py` (contoh: `bot13519144.py`)
+* Berikut spesifikasi dari game Connect Four yang akan digunakan:
+  1. Ukurang board adalah 6x7
+  2. Thinking time dari bot maksimal 3 detik
 * **Dilarang** mengambil atau menggunakan algoritma dari internet ataupun teman seleksi lainnya. 
 * **Dilarang** mengimplementasikan algoritma selain metode Greedy
 * Peserta yang melanggar aturan diatas akan diskualifikasi dari kompetisi dan tidak dapat mendapatkan skor.
