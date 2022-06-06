@@ -1,1 +1,1 @@
-from src.algorithm.bot import Bot
+from src.algorithm.bot13519144 import Bot13519144

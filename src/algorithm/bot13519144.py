@@ -1,7 +1,7 @@
 from src.model import State
 import random
 
-class Bot:
+class Bot13519144:
     def __init__(self) -> None:
         pass
 
@@ -16,7 +16,6 @@ class Bot:
         [RETURN]
             int -> column to place piece
         """
-        
         # Implement greedy algorithm here
         # ...
         

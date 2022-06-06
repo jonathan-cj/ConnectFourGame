@@ -6,6 +6,7 @@ from src.model import Board, Player, State, Config
 from src.constant import ShapeConstant, GameConstant, Path
 from src.utility import is_out, is_win, is_full, place
 
+import sys
 
 class Game:
     """
@@ -41,8 +42,9 @@ class Game:
     def __gen_player(self):
         if self.config.game_type == GameConstant.BVB:
             if not self.config.is_dump:
-                model1 = Bot()
-                model2 = Bot()
+                # Change this into your bots
+                model1 = Bot13519144()
+                model2 = Bot13519144()
             else:
                 # Don't change this
                 model1 = pickle.load(open(Path.BVB_P1, "rb"))
@@ -52,7 +54,8 @@ class Game:
 
         elif self.config.game_type == GameConstant.PVB:
             if not self.config.is_dump:
-                model = Bot()
+                # Change this into your bots
+                model = Bot13519144()
             else:
                 # Don't change this
                 model = pickle.load(open(Path.PVB, "rb"))
