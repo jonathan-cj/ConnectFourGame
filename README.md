@@ -1,6 +1,8 @@
 # Connect Four Bot Competition
 made by Jonathan Christhoper Jahja\
-Version 1.0
+
+### Changelog:
+1. Added link to sheets
 
 ## Latar Belakang
 Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat bot untuk memenangkan sebuah game balapan. Tujuan dari task ini adalah sama, yaitu membuat bot dengan menggunakan algoritma greedy. Tapi pada kali ini game yang berusaha dimenangkan adalah game Connect Four yang seharusnya tidak asing lagi didengar. Berbeda dengan task lainnya, task ini akan membandingkan hasil kerja kalian dengan teman seleksi lainnya dalam sebuah kompetisi. Jadi distribusi skor akan berdasarkan pemenang dari kompetisi. Maka kalian harus bisa membuat bot seoptimal mungkin. Good Luck Have Fun!
@@ -28,6 +30,7 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 > jadi pada contoh diatas `Bot A` merupakan **King** sebelumnya sehingga dia langsung ditempatkan di urutan pertama atau final. Lalu karena urutan pengumpulan Bot adalah `Bot B` > `Bot C` > `Bot D`, maka `Bot B` akan ditempatkan di urutan kedua, `Bot C` akan ditempatkan di urutan ketiga, dan seterusnya.
 * Peserta yang berhasil menjadi **King** mendapatkan mulai dari 2 poin yang akan bertambah seiring keberjalanan kompetisi
 * Jika seri maka pemenang ditentukan dari waktu submisi bot tercepat
+* Scoreboard kompetisi dan informasi **Daily tournament** dapat dilihat pada [sheet berikut](https://docs.google.com/spreadsheets/d/1514xQfherR1aWXIZUiCZsn_1PPJT4MK60wK0K36w0i8/edit?usp=sharing)
 * Berikut distribusi skor pada pemenang kompetisi:
 
 | Posisi | Poin Seleksi |
