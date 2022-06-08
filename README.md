@@ -1,8 +1,9 @@
 # Connect Four Bot Competition
-made by Jonathan Christhoper Jahja\
+made by Jonathan Christhoper Jahja
 
 ### Changelog:
 1. Added link to sheets
+2. Added fixed time for bot submission
 
 ## Latar Belakang
 Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat bot untuk memenangkan sebuah game balapan. Tujuan dari task ini adalah sama, yaitu membuat bot dengan menggunakan algoritma greedy. Tapi pada kali ini game yang berusaha dimenangkan adalah game Connect Four yang seharusnya tidak asing lagi didengar. Berbeda dengan task lainnya, task ini akan membandingkan hasil kerja kalian dengan teman seleksi lainnya dalam sebuah kompetisi. Jadi distribusi skor akan berdasarkan pemenang dari kompetisi. Maka kalian harus bisa membuat bot seoptimal mungkin. Good Luck Have Fun!
@@ -22,7 +23,7 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 * Kompetisi dimulai ketika submisi pertama dilakukan
 * Kompetisi ini akan berlangsung selama keberjalanan seleksi asisten IRK
 * Pemenang dari kompetisi akan ditentukan dari peserta yang berhasil mengumpulkan poin terbanyak di akhir kompetisi (**berbeda dengan poin seleksi**)
-* Peserta dapat mengumpulkan poin dengan menjadi **King** dari memenangkan **daily tournament** yang akan diadakan setiap harinya pada siang hari (sekitar 12.00 - 15.00 WIB)
+* Peserta dapat mengumpulkan poin dengan menjadi **King** dari memenangkan **daily tournament** yang akan diadakan setiap harinya pada siang hari (12.00 WIB)
 * Berikut adalah contoh bentuk bracket dari **Daily tournament**,
 ![](https://github.com/jonathan-cj/ConnectFourGame/blob/main/images/bracket.png)
 > pada contoh dapat dilihat `Bot D` adalah pemenang dari **Daily tournament** tersebut, sehingga dia berhasil menjadi **King** dan mendapatkan poin.
@@ -31,7 +32,7 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 * Peserta yang berhasil menjadi **King** mendapatkan mulai dari 2 poin yang akan bertambah seiring keberjalanan kompetisi
 * Jika seri maka pemenang ditentukan dari waktu submisi bot tercepat
 * Scoreboard kompetisi dan informasi **Daily tournament** dapat dilihat pada [sheet berikut](https://docs.google.com/spreadsheets/d/1514xQfherR1aWXIZUiCZsn_1PPJT4MK60wK0K36w0i8/edit?usp=sharing)
-* Berikut distribusi skor pada pemenang kompetisi:
+* Berikut distribusi skor pada pemenang kompetisi setelah kompetisi berakhir:
 
 | Posisi | Poin Seleksi |
 | ----------- | ----------- |
@@ -51,7 +52,8 @@ Masih ingatkah kalian dengan tugas besar 1 stima kalian ? Kalian diminta membuat
 3. Hubungi Line `jonathanjahja` untuk melakukan submisi bot.
 4. Memberikan tag `vn` pada commit terakhir Anda setiap kali ingin melakukan submisi bot dengan n adalah urutan submisi keberapa. (contoh: `v1` untuk submisi pertama)
 5. Setiap peserta maksimal hanya dapat melakukan submisi bot sebanyak 5x, jadi pastikan bot yang dikumpulkan tidak ada error atau bug.
-6. Jika ada pertanyaan silahkan buat issues di [repository original](https://github.com/jonathan-cj/ConnectFourGame)
+6. Peserta yang mengumpulkan bot setelah jam 12.00 WIB siang tidak dapat mengikuti **Daily tournament** hari tersebut.
+7. Jika ada pertanyaan silahkan buat issues di [repository original](https://github.com/jonathan-cj/ConnectFourGame)
 
 ## Credit
 Thanks to tugas besar AI buat inspirasinya
